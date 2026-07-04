@@ -1,0 +1,63 @@
+# Tasks
+
+This file tracks all work for the ShopSmart sales dashboard. Move milestones between the sections below as you pick them up and finish them.
+
+## Definition of Done
+
+Every milestone is done only when all of these are true:
+
+- [ ] Its acceptance criteria are met
+- [ ] The app runs locally with `streamlit run app.py`
+- [ ] Changes are committed with the milestone ID in the message (e.g. `TASK-3: add KPI cards`)
+
+## To Do
+
+### TASK-1: Set up the environment and project
+Create the Python virtual environment, install Streamlit, Plotly, and Pandas, and scaffold `app.py`.
+
+- [ ] `streamlit run app.py` launches a page without errors
+- [ ] Dependencies are pinned in `requirements.txt`
+
+### TASK-2: Load the sales data
+Read `data/sales-data.csv` with Pandas and parse the date, numeric, and categorical columns (FR-5).
+
+- [ ] All 482 records load with correct data types
+- [ ] Total sales computed from the CSV is about $116,500
+
+### TASK-3: Build the KPI cards
+Show Total Sales and Total Orders at the top of the dashboard (FR-1).
+
+- [ ] Total Sales displays as currency ($X,XXX,XXX)
+- [ ] Total Orders shows 482
+- [ ] Large numbers use thousands separators
+
+### TASK-4: Add the sales trend chart
+Plot a line chart of sales over time with interactive tooltips (FR-2).
+
+- [ ] Line chart shows sales by date or month
+- [ ] Hovering a point reveals the exact value
+
+### TASK-5: Add category and region breakdowns
+Two bar charts: sales by product category and sales by region, each sorted highest to lowest (FR-3, FR-4).
+
+- [ ] Category chart lists all 5 categories, sorted by sales
+- [ ] Region chart lists all 4 regions, sorted by sales
+- [ ] Both charts have tooltips with exact values
+
+### TASK-6: Test and refine
+Verify the numbers against the CSV, clean up the layout, and confirm the dashboard is presentable (M6, NFR-2).
+
+- [ ] Displayed values match calculations from the CSV
+- [ ] Dashboard runs with no errors or warnings
+- [ ] Labels are clear and the layout is readable
+
+### TASK-7: Deploy to Streamlit Community Cloud
+Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
+
+- [ ] App is deployed to Streamlit Community Cloud
+- [ ] Public URL loads the dashboard without errors
+- [ ] The URL is recorded in the README
+
+## In Progress
+
+## Done
