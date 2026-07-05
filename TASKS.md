@@ -40,8 +40,18 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ### TASK-4: Add the sales trend chart
 Plot a line chart of sales over time with interactive tooltips (FR-2).
 
+Acceptance criteria:
+
 - [x] Line chart shows sales by date or month
 - [x] Hovering a point reveals the exact value
+
+Definition of Done:
+
+- [x] Its acceptance criteria are met
+- [x] The app runs locally with `streamlit run app.py`
+- [x] Changes are committed with the milestone ID in the message
+
+Commit: `9717950` — TASK-4: add monthly sales trend chart
 
 ### TASK-3: Build the KPI cards
 Show Total Sales and Total Orders at the top of the dashboard (FR-1).
