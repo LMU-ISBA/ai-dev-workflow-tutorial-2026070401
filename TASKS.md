@@ -59,5 +59,15 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ### TASK-1: Set up the environment and project
 Create the Python virtual environment, install Streamlit, Plotly, and Pandas, and scaffold `app.py`.
 
+Acceptance criteria:
+
 - [x] `streamlit run app.py` launches a page without errors
 - [x] Dependencies are pinned in `requirements.txt`
+
+Definition of Done:
+
+- [x] Its acceptance criteria are met
+- [x] The app runs locally with `streamlit run app.py`
+- [x] Changes are committed with the milestone ID in the message
+
+Commit: `440d16c` — TASK-1: set up environment and launchable app
