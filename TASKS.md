@@ -46,9 +46,19 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ### TASK-3: Build the KPI cards
 Show Total Sales and Total Orders at the top of the dashboard (FR-1).
 
+Acceptance criteria:
+
 - [x] Total Sales displays as currency ($X,XXX,XXX)
 - [x] Total Orders shows 482
 - [x] Large numbers use thousands separators
+
+Definition of Done:
+
+- [x] Its acceptance criteria are met
+- [x] The app runs locally with `streamlit run app.py`
+- [x] Changes are committed with the milestone ID in the message
+
+Commit: `84d4203` — TASK-3: add Total Sales and Total Orders KPI cards
 
 ### TASK-2: Load the sales data
 Read `data/sales-data.csv` with Pandas and parse the date, numeric, and categorical columns (FR-5).
