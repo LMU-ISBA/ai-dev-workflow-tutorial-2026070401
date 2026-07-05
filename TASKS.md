@@ -12,13 +12,6 @@ Every milestone is done only when all of these are true:
 
 ## To Do
 
-### TASK-3: Build the KPI cards
-Show Total Sales and Total Orders at the top of the dashboard (FR-1).
-
-- [ ] Total Sales displays as currency ($X,XXX,XXX)
-- [ ] Total Orders shows 482
-- [ ] Large numbers use thousands separators
-
 ### TASK-4: Add the sales trend chart
 Plot a line chart of sales over time with interactive tooltips (FR-2).
 
@@ -49,6 +42,13 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ## In Progress
 
 ## Done
+
+### TASK-3: Build the KPI cards
+Show Total Sales and Total Orders at the top of the dashboard (FR-1).
+
+- [x] Total Sales displays as currency ($X,XXX,XXX)
+- [x] Total Orders shows 482
+- [x] Large numbers use thousands separators
 
 ### TASK-2: Load the sales data
 Read `data/sales-data.csv` with Pandas and parse the date, numeric, and categorical columns (FR-5).
