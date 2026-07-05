@@ -23,3 +23,27 @@ monthly = data.sales_by_month(df)
 trend = px.line(monthly, x="month", y="sales", markers=True)
 trend.update_layout(xaxis_title="Month", yaxis_title="Sales ($)")
 st.plotly_chart(trend, use_container_width=True)
+
+left, right = st.columns(2)
+
+with left:
+    st.subheader("Sales by Category")
+    category = data.sales_by_category(df)
+    cat_chart = px.bar(category, x="sales", y="category", orientation="h")
+    cat_chart.update_layout(
+        xaxis_title="Sales ($)",
+        yaxis_title="",
+        yaxis={"categoryorder": "total ascending"},
+    )
+    st.plotly_chart(cat_chart, use_container_width=True)
+
+with right:
+    st.subheader("Sales by Region")
+    region = data.sales_by_region(df)
+    reg_chart = px.bar(region, x="sales", y="region", orientation="h")
+    reg_chart.update_layout(
+        xaxis_title="Sales ($)",
+        yaxis_title="",
+        yaxis={"categoryorder": "total ascending"},
+    )
+    st.plotly_chart(reg_chart, use_container_width=True)

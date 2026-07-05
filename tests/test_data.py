@@ -21,3 +21,19 @@ def test_sales_by_month_is_chronological():
     months = result["month"].tolist()
     assert months == sorted(months)
     assert len(result) == 12
+
+
+def test_sales_by_category():
+    result = data.sales_by_category(DF)
+    assert len(result) == 5
+    assert result.iloc[0]["category"] == "Electronics"
+    sales = result["sales"].tolist()
+    assert sales == sorted(sales, reverse=True)
+
+
+def test_sales_by_region():
+    result = data.sales_by_region(DF)
+    assert len(result) == 4
+    assert set(result["region"]) == {"North", "South", "East", "West"}
+    sales = result["sales"].tolist()
+    assert sales == sorted(sales, reverse=True)

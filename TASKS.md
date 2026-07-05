@@ -12,13 +12,6 @@ Every milestone is done only when all of these are true:
 
 ## To Do
 
-### TASK-5: Add category and region breakdowns
-Two bar charts: sales by product category and sales by region, each sorted highest to lowest (FR-3, FR-4).
-
-- [ ] Category chart lists all 5 categories, sorted by sales
-- [ ] Region chart lists all 4 regions, sorted by sales
-- [ ] Both charts have tooltips with exact values
-
 ### TASK-6: Test and refine
 Verify the numbers against the CSV, clean up the layout, and confirm the dashboard is presentable (M6, NFR-2).
 
@@ -36,6 +29,13 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ## In Progress
 
 ## Done
+
+### TASK-5: Add category and region breakdowns
+Two bar charts: sales by product category and sales by region, each sorted highest to lowest (FR-3, FR-4).
+
+- [x] Category chart lists all 5 categories, sorted by sales
+- [x] Region chart lists all 4 regions, sorted by sales
+- [x] Both charts have tooltips with exact values
 
 ### TASK-4: Add the sales trend chart
 Plot a line chart of sales over time with interactive tooltips (FR-2).

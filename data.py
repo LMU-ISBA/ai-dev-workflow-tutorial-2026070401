@@ -26,3 +26,19 @@ def sales_by_month(df):
     result.columns = ["month", "sales"]
     result["month"] = result["month"].dt.to_timestamp()
     return result
+
+
+def sales_by_category(df):
+    """Sales per product category, sorted highest to lowest."""
+    grouped = df.groupby("category")["total_amount"].sum()
+    result = grouped.sort_values(ascending=False).reset_index()
+    result.columns = ["category", "sales"]
+    return result
+
+
+def sales_by_region(df):
+    """Sales per geographic region, sorted highest to lowest."""
+    grouped = df.groupby("region")["total_amount"].sum()
+    result = grouped.sort_values(ascending=False).reset_index()
+    result.columns = ["region", "sales"]
+    return result
