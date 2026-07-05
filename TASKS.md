@@ -53,8 +53,18 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ### TASK-2: Load the sales data
 Read `data/sales-data.csv` with Pandas and parse the date, numeric, and categorical columns (FR-5).
 
+Acceptance criteria:
+
 - [x] All 482 records load with correct data types
 - [x] Total sales computed from the CSV is about $116,500 (exact: $116,500.21)
+
+Definition of Done:
+
+- [x] Its acceptance criteria are met
+- [x] The app runs locally with `streamlit run app.py`
+- [x] Changes are committed with the milestone ID in the message
+
+Commit: `62bd162` — TASK-2: load sales data and compute totals
 
 ### TASK-1: Set up the environment and project
 Create the Python virtual environment, install Streamlit, Plotly, and Pandas, and scaffold `app.py`.
