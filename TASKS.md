@@ -26,9 +26,19 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ### TASK-6: Test and refine
 Verify the numbers against the CSV, clean up the layout, and confirm the dashboard is presentable (M6, NFR-2).
 
+Acceptance criteria:
+
 - [x] Displayed values match calculations from the CSV
 - [x] Dashboard runs with no errors or warnings
 - [x] Labels are clear and the layout is readable
+
+Definition of Done:
+
+- [x] Its acceptance criteria are met
+- [x] The app runs locally with `streamlit run app.py`
+- [x] Changes are committed with the milestone ID in the message
+
+Commit: `70308af` — TASK-6: finalize tests and polish dashboard layout
 
 ### TASK-5: Add category and region breakdowns
 Two bar charts: sales by product category and sales by region, each sorted highest to lowest (FR-3, FR-4).
