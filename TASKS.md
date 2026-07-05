@@ -12,12 +12,6 @@ Every milestone is done only when all of these are true:
 
 ## To Do
 
-### TASK-1: Set up the environment and project
-Create the Python virtual environment, install Streamlit, Plotly, and Pandas, and scaffold `app.py`.
-
-- [ ] `streamlit run app.py` launches a page without errors
-- [ ] Dependencies are pinned in `requirements.txt`
-
 ### TASK-2: Load the sales data
 Read `data/sales-data.csv` with Pandas and parse the date, numeric, and categorical columns (FR-5).
 
@@ -61,3 +55,9 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ## In Progress
 
 ## Done
+
+### TASK-1: Set up the environment and project
+Create the Python virtual environment, install Streamlit, Plotly, and Pandas, and scaffold `app.py`.
+
+- [x] `streamlit run app.py` launches a page without errors
+- [x] Dependencies are pinned in `requirements.txt`
