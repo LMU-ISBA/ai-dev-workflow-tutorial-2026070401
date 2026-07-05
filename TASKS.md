@@ -12,12 +12,6 @@ Every milestone is done only when all of these are true:
 
 ## To Do
 
-### TASK-2: Load the sales data
-Read `data/sales-data.csv` with Pandas and parse the date, numeric, and categorical columns (FR-5).
-
-- [ ] All 482 records load with correct data types
-- [ ] Total sales computed from the CSV is about $116,500
-
 ### TASK-3: Build the KPI cards
 Show Total Sales and Total Orders at the top of the dashboard (FR-1).
 
@@ -55,6 +49,12 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ## In Progress
 
 ## Done
+
+### TASK-2: Load the sales data
+Read `data/sales-data.csv` with Pandas and parse the date, numeric, and categorical columns (FR-5).
+
+- [x] All 482 records load with correct data types
+- [x] Total sales computed from the CSV is about $116,500 (exact: $116,500.21)
 
 ### TASK-1: Set up the environment and project
 Create the Python virtual environment, install Streamlit, Plotly, and Pandas, and scaffold `app.py`.
