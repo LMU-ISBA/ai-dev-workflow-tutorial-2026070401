@@ -5,6 +5,8 @@ import data
 
 st.set_page_config(page_title="ShopSmart Sales Dashboard", layout="wide")
 st.title("ShopSmart Sales Dashboard")
+st.caption("ShopSmart sales performance, Phase 1")
+st.divider()
 
 
 @st.cache_data

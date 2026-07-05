@@ -12,13 +12,6 @@ Every milestone is done only when all of these are true:
 
 ## To Do
 
-### TASK-6: Test and refine
-Verify the numbers against the CSV, clean up the layout, and confirm the dashboard is presentable (M6, NFR-2).
-
-- [ ] Displayed values match calculations from the CSV
-- [ ] Dashboard runs with no errors or warnings
-- [ ] Labels are clear and the layout is readable
-
 ### TASK-7: Deploy to Streamlit Community Cloud
 Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 
@@ -29,6 +22,13 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ## In Progress
 
 ## Done
+
+### TASK-6: Test and refine
+Verify the numbers against the CSV, clean up the layout, and confirm the dashboard is presentable (M6, NFR-2).
+
+- [x] Displayed values match calculations from the CSV
+- [x] Dashboard runs with no errors or warnings
+- [x] Labels are clear and the layout is readable
 
 ### TASK-5: Add category and region breakdowns
 Two bar charts: sales by product category and sales by region, each sorted highest to lowest (FR-3, FR-4).
