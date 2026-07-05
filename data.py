@@ -14,3 +14,15 @@ def total_sales(df):
 def total_orders(df):
     """Number of transactions."""
     return int(len(df))
+
+
+def sales_by_month(df):
+    """Sales summed per calendar month, ordered chronologically.
+
+    Returns a DataFrame with columns 'month' (Timestamp) and 'sales'.
+    """
+    grouped = df.groupby(df["date"].dt.to_period("M"))["total_amount"].sum()
+    result = grouped.reset_index()
+    result.columns = ["month", "sales"]
+    result["month"] = result["month"].dt.to_timestamp()
+    return result

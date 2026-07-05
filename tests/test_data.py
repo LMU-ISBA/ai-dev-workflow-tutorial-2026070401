@@ -14,3 +14,10 @@ def test_total_orders():
 def test_total_sales_near_expected():
     total = data.total_sales(DF)
     assert 110_000 < total < 123_000
+
+
+def test_sales_by_month_is_chronological():
+    result = data.sales_by_month(DF)
+    months = result["month"].tolist()
+    assert months == sorted(months)
+    assert len(result) == 12

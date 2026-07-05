@@ -12,12 +12,6 @@ Every milestone is done only when all of these are true:
 
 ## To Do
 
-### TASK-4: Add the sales trend chart
-Plot a line chart of sales over time with interactive tooltips (FR-2).
-
-- [ ] Line chart shows sales by date or month
-- [ ] Hovering a point reveals the exact value
-
 ### TASK-5: Add category and region breakdowns
 Two bar charts: sales by product category and sales by region, each sorted highest to lowest (FR-3, FR-4).
 
@@ -42,6 +36,12 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ## In Progress
 
 ## Done
+
+### TASK-4: Add the sales trend chart
+Plot a line chart of sales over time with interactive tooltips (FR-2).
+
+- [x] Line chart shows sales by date or month
+- [x] Hovering a point reveals the exact value
 
 ### TASK-3: Build the KPI cards
 Show Total Sales and Total Orders at the top of the dashboard (FR-1).
