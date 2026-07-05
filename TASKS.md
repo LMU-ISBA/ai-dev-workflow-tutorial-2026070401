@@ -33,9 +33,19 @@ Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 ### TASK-5: Add category and region breakdowns
 Two bar charts: sales by product category and sales by region, each sorted highest to lowest (FR-3, FR-4).
 
+Acceptance criteria:
+
 - [x] Category chart lists all 5 categories, sorted by sales
 - [x] Region chart lists all 4 regions, sorted by sales
 - [x] Both charts have tooltips with exact values
+
+Definition of Done:
+
+- [x] Its acceptance criteria are met
+- [x] The app runs locally with `streamlit run app.py`
+- [x] Changes are committed with the milestone ID in the message
+
+Commit: `9477d4f` — TASK-5: add category and region breakdown charts
 
 ### TASK-4: Add the sales trend chart
 Plot a line chart of sales over time with interactive tooltips (FR-2).
