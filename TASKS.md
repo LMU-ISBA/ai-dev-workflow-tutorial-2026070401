@@ -12,14 +12,14 @@ Every milestone is done only when all of these are true:
 
 ## To Do
 
+## In Progress
+
 ### TASK-7: Deploy to Streamlit Community Cloud
 Publish the dashboard so stakeholders can reach it from a shareable URL (NFR-5).
 
 - [ ] App is deployed to Streamlit Community Cloud
 - [ ] Public URL loads the dashboard without errors
 - [ ] The URL is recorded in the README
-
-## In Progress
 
 ## Done
 
